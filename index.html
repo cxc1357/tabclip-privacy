@@ -28,11 +28,14 @@
   </ul>
 
   <h2>Website content</h2>
-  <p>When you choose to record or screenshot a region, TabClip captures visible content from the active tab you are viewing. This content is processed locally to create your clip. It is <strong>not uploaded</strong> to us or to third-party servers for storage or analysis.</p>
+  <p>When you choose to record or screenshot a region, TabClip captures visible content from the <strong>active tab you are viewing</strong>. This happens only after you click Select region or start capture. This content is processed locally to create your clip. It is <strong>not uploaded</strong> to us or to third-party servers for storage or analysis.</p>
+  <p>TabClip does <strong>not</strong> access all websites automatically, collect your browsing history, or run on pages without your action.</p>
 
   <h2>Permissions</h2>
   <ul>
-    <li><strong>activeTab / tabCapture</strong> — capture the area you select after you start recording</li>
+    <li><strong>activeTab</strong> — access the current tab when you open the extension and start capture</li>
+    <li><strong>scripting</strong> — inject the capture UI into the active tab only when you click Select region</li>
+    <li><strong>tabCapture</strong> — capture frames from the region you select during recording</li>
     <li><strong>storage / unlimitedStorage</strong> — save settings and clips on your device</li>
     <li><strong>offscreen</strong> — encode frames locally</li>
     <li><strong>downloads</strong> — save exported files when you click Export</li>
